@@ -4,150 +4,171 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Your Website</title>
+	<title>Wellington Internet</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
-
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
 	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
+		<a href="#first">Top⬆</a>
+		<a href="#second">Antenna</a>
+		<a href="#third">Fire Alarm</a>
+		<a href="#fourth">Security System</a>
 	</nav>
 
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
 
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
 
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
 
-	<header>
+	<header class="hd" id="first">
+
+		<h1>Wellington Internet Infrastructure</h1>
+		
+
+	</header>
+
+
+	<div>
+
+		<img class="wt" src="img/wt.jpg" alt="image" width="1700" >
+
+	</div>
+
+<!-- ---------------------------------------------------------------------------------------------- -->
+
+	<header class="hd1" id="second">
+		<h1>Antenna</h1>
+
 		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
+			<p>Antennae have been wildly used throughout the Wellington city, including the transportation system, industrial area and residential area. It has made the network more accessible and cheaper.</p>
 		</section>
 	</header>
 
-	
 
 	<section>
-		<h3>Grids</h3>
+		<div class="g-row">
 
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
+			<div class="g1">
+				<img src="img/a1.jpg" alt="image">
 			</div>
 
-			<div class="g-30 show">
-				30% width .g-30
+			<div class="g1">
+				<img src="img/a2.jpg" alt="image">
 			</div>
 
-			<div class="g-70 show">
-				70% width .g-70
+			<div class="g1">
+				<img src="img/a3.jpg" alt="image">
 			</div>
+
+			<div class="g1">
+				<img src="img/a4.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/a5.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/a6.jpg" alt="image">
+			</div>
+
 		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
 	</section>
 
-	<header>
+
+
+<!-- ---------------------------------------------------------------------------------------------- -->
+
+	<header class="hd1" id="third">
+		<h1>Fire Alarm System</h1>
 		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>These fire alarm units were found across all buildings and industrial areas. Most of these alarm system creates connections between the property and fire station. The fire alarm network increases the safty among our communities. </p>
 		</section>
 	</header>
 
 	<section>
 		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
+			<div class="g1">
+				<img src="img/far1.jpg" alt="image">
 			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
+			<div class="g1">
+				<img src="img/far2.jpg" alt="image">
 			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
+			<div class="g1">
+				<img src="img/far3.jpg" alt="image">
 			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+
+
+			<div class="g1">
+				<img src="img/ar1.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/ar2.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/ar3.jpg" alt="image">
+			</div>
+
+			
+		</div>
+	</section>
+
+<!-- ---------------------------------------------------------------------------------------------- -->
+
+
+	<header class="hd1" id="fourth">
+		<h1>Security System</h1>
+		<section>
+			<p>
+				These devices were found all around the buildings. It has become increasingly common to see these devices around the city. It somehow creates the network among us.</p>
+		</section>
+	</header>
+
+	<section>
+		<div class="g-row">
+
+			<div class="g1">
+				<img src="img/dr1.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/dr2.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/dr3.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/sec1.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/sec2.jpg" alt="image">
+			</div>
+
+			<div class="g1">
+				<img src="img/sec3.jpg" alt="image">
 			</div>
 		</div>
 	</section>
+
+	<hr>
+
+	<footer>
+		<p class="ft">Daniel (JH) Huang<br>
+		<p class="ft">MDDN201, School of Design Innovation</p>
+		
+	  </footer>
 
 </body>
 
